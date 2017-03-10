@@ -53,7 +53,7 @@ $ heroku config:set DATABASE_URL='mysql2://b1cc**********:6b******@us-cdbr-iron-
 `DATABASE_URL`をセットできない場合は、以下のコマンドでdetachまたはheroku-postgresqlのdestroyをおこなってからセットして下さい。
 ```
 $ heroku addons:detach DATABASE_URL
-$ heroku addons:destroy heroku-postgresql -a mameblo
+$ heroku addons:destroy heroku-postgresql -a <アプリケーション名>
 ```
 
 Herokuのダッシュボード内の「Personal apps」から「ClearDB MySQL」を選択するとデータベースの接続情報の確認ができます。
