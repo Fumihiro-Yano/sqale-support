@@ -1,10 +1,10 @@
-# Rubyアプリケーションの移行について
+# Herokuへの移行手順
 ## 移行準備
-### データベースのバックアップ
-[アプリケーションの復元方法（バックアップとリストア）](https://sqale.jp/support/manual/db-backup-restore)を参考にデータベースのバックアップをおこなって下さい。
-
 ### Herokuのアカウント登録
 Herokuのアカウントをお持ちでない方は[https://signup.heroku.com/](https://signup.heroku.com/)からアカウントを作成して下さい。
+
+### データベースのバックアップ
+[アプリケーションの復元方法（バックアップとリストア）](https://sqale.jp/support/manual/db-backup-restore)を参考にデータベースのバックアップをおこなって下さい。
 
 ## アプリケーションの作成
 Herokuダッシュボード内の「New」から「Create new app」を選択します。
