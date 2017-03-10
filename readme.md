@@ -11,7 +11,7 @@
 お手数をおかけいたしますが、【2017年5月末日】までにご希望の移行先への移行作業をお願いいたします。
 
 ### Heroku
-3月上旬公開予定です。
+[Herokuへの移行手順](https://github.com/pepabo/sqale-support/blob/master/heroku-migration-guide.md)
 
 ### ロリポップ！レンタルサーバー
-3月上旬公開予定です。
+[ロリポップ！レンタルサーバーへの移行手順](https://github.com/pepabo/sqale-support/blob/master/lolipop-migration-guide.md)
