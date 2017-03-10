@@ -10,13 +10,14 @@ Herokuのアカウントをお持ちでない方は[https://signup.heroku.com/](
 Herokuダッシュボード内の「New」から「Create new app」を選択します。
 
 ![](images/heroku-new.png)
+![](images/heroku-create-new-app.png)
 
 「App Name」を決めたら、「Create App」ボタンをクリックしてアプリケーションを作成します。
 
-![](images/heroku-create-new-app.png)
+![](images/heroku-app-name.png)
 
 ## Heroku CLIの設定
-アプリケーションをデプロイするためにHeroku CLIの設定を行います。
+アプリケーションをデプロイするために[Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)の設定を行います。
 `heroku login` コマンドを入力してログインをしてから、以下のコマンドを実行して下さい。
 
 ```
