@@ -30,7 +30,7 @@ $ git push heroku master
 
 ## データベースのリストア
 ### ClearDB MySQLの設定
-herokuコマンドでClearDB MySQLにデータを移行する準備を行います。
+herokuコマンドで[ClearDB MySQL](https://elements.heroku.com/addons/cleardb)にデータを移行する準備を行います。
 
 ```
 $ heroku addons:create cleardb:ignite
@@ -48,7 +48,7 @@ URLを確認した後に`DATABASE_URL`をセットします。
 $ heroku config:set DATABASE_URL='mysql2://b1cc**********:6b******@us-cdbr-iron-east-04.cleardb.net/heroku_c2394**********?reconnect=true'
 ```
 
-もし、` Cannot overwrite attachment values DATABASE_URL.` というメッセージが表示されて
+もし、` Cannot overwrite attachment values DATABASE_URL.` というメッセージが表示されて、
 `DATABASE_URL`をセットできない場合は、以下のコマンドでdetachまたはheroku-postgresqlのdestroyをおこなってからセットして下さい。
 ```
 $ heroku addons:detach DATABASE_URL
@@ -64,5 +64,5 @@ mysql --host=us-cdbr-iron-east-04.cleardb.net --user=b1cc********* --password=6b
 ```
 
 ## アプリケーションの表示の確認
-https://<アプリケーション名>.herokuapp.com/ が表示できたら移行は完了です。
+https://<アプリケーション名>.herokuapp.com/ が表示できたら移行は完了です。  
 これまで「Sqale」をご利用いただき、誠にありがとうございました。
